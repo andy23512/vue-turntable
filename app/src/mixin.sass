@@ -1,0 +1,66 @@
+=background($background-image, $background-size: cover, $background-repeat: null, $background-position: center center)
+  background-image: $background-image
+  background-position: $background-position
+  background-repeat: $background-repeat
+  background-size: $background-size
+
+=flexbox($justify-content, $align-items: flex-start, $flex-direction: null)
+  align-items: $align-items
+  display: flex
+  flex-direction: $flex-direction
+  justify-content: $justify-content
+
+=font($font-size, $color: null, $line-height: null, $letter-spacing: null, $font-weight: null)
+  color: $color
+  font-size: $font-size
+  font-weight: $font-weight
+  letter-spacing: $letter-spacing
+  line-height: $line-height
+
+=reset-a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+=reset-button
+  background-color: transparent
+  border: none
+  cursor: pointer
+  outline: none
+
+=reset-input
+  background-color: transparent
+  border-radius: 0
+  border: none
+  outline: none
+  &::-ms-clear
+    display: none
+
+=reset-select
+  appearance: none
+  background-color: transparent
+  border-radius: 0
+  border: none
+  cursor: pointer
+  outline: none
+  &::-ms-expand
+    display: none
+
+=reset-textarea
+  background-color: transparent
+  border-radius: 0
+  border: none
+  outline: none
+  resize: none
+
+=reset-ol
+  padding-left: 0
+  list-style-type: none
+
+=reset-ul
+  padding-left: 0
+  list-style-type: none
+
+=size($width, $height: $width)
+  height: $height
+  width: $width

@@ -1,0 +1,21 @@
+@import '~src/mixin.sass'
+
+*:not(i)
+  font-family: WenQuanYi Zen Hei, PingFang TC, Microsoft JhengHei !important
+
+html, body
+  height: 100%
+body
+  overflow-x: hidden
+
+.container
+  margin-left: auto
+  margin-right: auto
+  width: 960px
+
+@media (max-width: 991px)
+  .container
+    min-width: 320px
+    padding-left: 20px
+    padding-right: 20px
+    width: 100%
