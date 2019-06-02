@@ -10,7 +10,7 @@
     "watch": "webpack --watch"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "jquery": "^3.4.0",
     "rxjs": "^6.4.0",
     "semantic-ui-css": "^2.4.1",
